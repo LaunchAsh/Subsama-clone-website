@@ -1,0 +1,106 @@
+@import "../../settings";
+
+.hashtags-list-item ul {
+  list-style-type: none;
+  text-align: left;
+
+}
+
+li:hover {
+  background-color: rgba(250, 128, 114, 0.452);
+  text-decoration: under-line;
+  transition: ease-out 0.4s;
+  opacity: 0.8;
+}
+
+.hashtags-list-item li:focus{
+  background-color: rgba(250, 128, 114, 0.452);
+}
+
+.hashtags-list-item li {
+  box-sizing: border-box;
+  margin-left: -35px;
+  padding: 10px 0px 10px 17px;
+}
+
+.list-group-item p {
+  display: inline-block;
+  font-weight: 500;
+  margin: 0px !important;
+  vertical-align: middle;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.hashtags div {
+  display: block;
+  width: 100%;
+}
+
+.create-channel text {
+  border: none;
+  border-color: transparent;
+}
+
+.drop-menu-hashtag div {
+  position: absolute;
+  left: 210px;
+  margin-top: -15px;
+  border: none;
+}
+
+.drop-menu-hashtag button {
+  border: none;
+  background-color: rgb(77, 205, 125);
+}
+
+.ml-auto {
+  position: absolute;
+  left: 60%;
+  margin-top: -15px;
+  width: 5px;
+}
+
+.list-group-item {
+  border: none !important;
+}
+.sub-hash-tag p{
+  margin-right: 5px !important;
+}
+
+.sub-hash-tag:hover .active {
+  display: block;
+    
+}
+
+.sub-hash-tag .active {
+  display: none;
+}
+
+
+.popup_edit_btn {
+  border: none;
+  width: 20%;
+  padding-top: 15px!important;
+  background-color: transparent;
+}
+
+.popup_delete-btn{
+  padding: 0px !important;
+  margin-bottom: 4px;
+}
+
+
+
+.add-popup-btn{
+  margin-left: 15px;
+  border: 2px solid #00FB2D !important;
+  border-radius: 4px;
+  background-color: $board-bg-color;
+}
+
+.add-popup-btn:hover{
+  box-shadow: 2px 2px 6px #cccfcd;
+  transform: translateX(-3px) translateY(-3px);
+}
+

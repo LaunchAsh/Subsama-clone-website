@@ -1,0 +1,47 @@
+@import "../../../settings";
+.subtask-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .subtask{
+    text-align: left;
+    background-color: inherit;
+    border: none;
+    &:hover{
+      color: #252424;
+      cursor : pointer;
+    }
+  }
+  &:focus{
+    outline: none!important;
+    box-shadow: none!important;
+  }
+  .edit-button{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    color: #646161;
+    text-align:right;
+    .edit-title-button{
+      width: 25px;
+      height: 25px;
+      padding-right: 5px;
+      &:hover{
+        color: #252424;
+        cursor : pointer;
+        transform: translateX(-2px);
+        transform: translateY(-2px);
+      }
+    }
+    .delete-button{
+      width: 20px;
+      height: 20px;
+      &:hover{
+        color: #252424;
+        cursor : pointer;
+        transform: translateX(-2px);
+        transform: translateY(-2px);
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import "../../settings";
+.task-item{
+  background-color: white;
+  padding:$gap;
+  border-radius: 6px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  font-weight: bold; ;
+  &:not(:last-child){
+    margin-bottom: $gap;
+  }
+  .decription-task{
+    font-size: 12px;
+    font-weight: normal;
+    color: #5b5757;
+  }
+
+  .hashtag-of-task{
+    text-align:right;
+    font-size: 10px;
+  }
+  .header-task{
+    display: flex;
+    justify-content: space-between;
+    .title-task{
+      max-width: 200px;
+      &:hover{
+        cursor : pointer;
+        font-style : italic;
+      }
+    }
+    .info-task{
+      text-align: right;
+      color: gray;
+      &:hover{
+        color:#333;
+        cursor : pointer;
+      }
+    }
+  }
+}
+.task-item:hover{
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  transition: ease-in-out;
+}
+.task-hashtag-label{
+  color: salmon;
+}
